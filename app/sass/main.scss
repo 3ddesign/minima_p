@@ -99,9 +99,10 @@ p {
         margin-left: 10px;
     }
 
-    &:hover {
+    &:hover, &:focus {
         @extend .main-trans;
         background-color: #2f2f2f;
+        color: #fff;
     }
 }
 
@@ -257,5 +258,87 @@ h2 {
         background-color: #e7e7e7;
         width: 100%;
         height: 1px;
+    }
+}
+
+.soc-item {
+    display: inline-block;
+    height: 70px;
+    width: 70px;
+    border: 2px $main-col solid;
+    margin: 20px;
+    padding: 24px;
+    cursor: pointer;
+
+    .fa-mod2 {
+        font-size: 20px;
+        color: $main-col;
+    }
+
+    &:hover {
+        @extend .main-trans;
+        background-color: #55acee;
+        border: 2px #55acee solid;
+
+        .fa-mod2 {
+            color: #fff;
+        }
+    }
+}
+
+.soc-resp {
+    margin-top: 80px;
+}
+
+footer {
+    background-color: #3b3b3b;
+    color: #fff;
+    height: 350px;
+
+    .f-item {
+        margin-top: 100px;
+        letter-spacing: 0.5px;
+    display: inline-block;
+    height: 150px;
+        p {
+            margin-top: 30px;
+            color: #fff;
+            font-size: 13px;
+            line-height: 22px;
+            font-family: 'Open Sans', sans-serif;
+
+            span {
+                color: #b5b5b5;
+            }
+        }
+        a {
+            color: #b5b5b5;
+            text-decoration: underline;
+        }
+
+        ul {
+            margin-top: 30px;
+            list-style: none;
+            line-height: 24px;
+            padding: 0;
+
+            a {
+                color: #fff;
+                text-decoration: none;
+
+                &:hover {
+                    color: #b5b5b5;
+                }
+            }
+        }
+    }
+
+    .fa-mod {
+        margin-left: 8px;
+    }
+
+    h4 {
+        font-size: 18px;
+        font-family: 'Open Sans', sans-serif;
     }
 }

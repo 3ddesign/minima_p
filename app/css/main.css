@@ -1010,9 +1010,9 @@ tr.visible-lg{display:table-row !important}td.visible-lg,th.visible-lg{display:t
 table.visible-print{display:table !important}tr.visible-print{display:table-row !important}
 td.visible-print,th.visible-print{display:table-cell !important}}@media print{.visible-print-block{display:block !important}
 }@media print{.visible-print-inline{display:inline !important}}@media print{.visible-print-inline-block{display:inline-block !important}
-}@media print{.hidden-print{display:none !important}}.main-trans,nav li a:hover,.btn:hover,.btn-mod:hover{transition:all .5s ease}
-@media only screen and (max-width:768px){nav{display:none}}*{outline:0}.top-line{height:130px;padding:35px 0}
-.top-line .logo{text-decoration:none;color:#4d4d4d;font-family:'Quicksand',sans-serif;font-size:40px}
+}@media print{.hidden-print{display:none !important}}.main-trans,nav li a:hover,.btn:hover,.btn:focus,.btn-mod:hover,.soc-item:hover{transition:all .5s ease}
+@media only screen and (max-width:768px){nav{display:none}.hidden{display:none}}@media only screen and (max-width:480px){.soc-sec{margin-bottom:80px}
+}*{outline:0}.top-line{height:130px;padding:35px 0}.top-line .logo{text-decoration:none;color:#4d4d4d;font-family:'Quicksand',sans-serif;font-size:40px}
 nav ul{list-style-type:none;margin:0;padding:0}nav li{display:inline-block;font-family:'Open Sans',sans-serif;font-size:16px;padding:18px 25px}
 nav li:last-child{padding-right:0}nav li a{color:#4d4d4d;text-decoration:none}nav li a:active,nav li a:focus{text-decoration:none;border-bottom:1px #0f0f0f solid}
 nav li a:hover{color:#0f0f0f;text-decoration:none;border-bottom:1px #0f0f0f solid}
@@ -1020,7 +1020,7 @@ nav li a:hover{color:#0f0f0f;text-decoration:none;border-bottom:1px #0f0f0f soli
 h1{color:#4d4d4d;font-family:'Quicksand',sans-serif;font-size:50px}
 p{color:#4d4d4d;font-family:'Open Sans',sans-serif;font-size:16px;line-height:35px}
 .btn{width:290px;height:50px;background-color:#4d4d4d;color:#fff;font-size:18px;font-weight:bold;margin-top:10px;font-family:'Open Sans',sans-serif;text-transform:uppercase;border:0;border-radius:30px}
-.btn .fa-mod{font-weight:100;font-size:15px;margin-left:10px}.btn:hover{background-color:#2f2f2f}
+.btn .fa-mod{font-weight:100;font-size:15px;margin-left:10px}.btn:hover,.btn:focus{background-color:#2f2f2f;color:#fff}
 .serv-item{padding-top:7%;padding-bottom:5%;color:#4d4d4d}.serv-item h3{text-transform:uppercase;font-size:22px;font-family:'Open Sans',sans-serif;font-weight:bold;margin-top:30px;margin-bottom:30px}
 .serv-item p{line-height:22px;font-size:14px;font-family:'Open Sans',sans-serif}
 .serv-sec::after{margin:0 auto;content:"";position:relative;display:block;background-color:#e7e7e7;width:70%;height:1px}
@@ -1034,3 +1034,11 @@ h2{text-transform:uppercase;font-size:30px;font-family:'Open Sans',sans-serif;fo
 .sub-sec:before{margin:0 auto;content:"";position:relative;display:block;background-color:#e7e7e7;width:100%;height:1px}
 .btn-mod{width:290px;height:50px;background-color:#f7f7f7;color:#4d4d4d;font-size:16px;font-weight:100;margin-top:40px;font-family:'Open Sans',sans-serif;border:2px #4d4d4d solid}
 .btn-mod:hover{background-color:#4d4d4d;color:#fff}.soc-sec{height:270px}.soc-sec:before{margin:0 auto;content:"";position:relative;display:block;background-color:#e7e7e7;width:100%;height:1px}
+.soc-item{display:inline-block;height:70px;width:70px;border:2px #4d4d4d solid;margin:20px;padding:24px;cursor:pointer}
+.soc-item .fa-mod2{font-size:20px;color:#4d4d4d}.soc-item:hover{background-color:#55acee;border:2px #55acee solid}
+.soc-item:hover .fa-mod2{color:#fff}.soc-resp{margin-top:80px}footer{background-color:#3b3b3b;color:#fff;height:350px}
+footer .f-item{margin-top:100px;letter-spacing:.5px;display:inline-block;height:150px}
+footer .f-item p{margin-top:30px;color:#fff;font-size:13px;line-height:22px;font-family:'Open Sans',sans-serif}
+footer .f-item p span{color:#b5b5b5}footer .f-item a{color:#b5b5b5;text-decoration:underline}
+footer .f-item ul{margin-top:30px;list-style:none;line-height:24px;padding:0}footer .f-item ul a{color:#fff;text-decoration:none}
+footer .f-item ul a:hover{color:#b5b5b5}footer .fa-mod{margin-left:8px}footer h4{font-size:18px;font-family:'Open Sans',sans-serif}
