@@ -1010,7 +1010,7 @@ tr.visible-lg{display:table-row !important}td.visible-lg,th.visible-lg{display:t
 table.visible-print{display:table !important}tr.visible-print{display:table-row !important}
 td.visible-print,th.visible-print{display:table-cell !important}}@media print{.visible-print-block{display:block !important}
 }@media print{.visible-print-inline{display:inline !important}}@media print{.visible-print-inline-block{display:inline-block !important}
-}@media print{.hidden-print{display:none !important}}.main-trans,nav li a:hover,.btn:hover,.btn:focus,.btn-mod:hover,.soc-item:hover{transition:all .5s ease}
+}@media print{.hidden-print{display:none !important}}.main-trans,nav li a:hover,.btn:focus,.btn:hover,.btn-mod:hover,.soc-item:hover{transition:all .5s ease}
 @media only screen and (max-width:768px){nav{display:none}.hidden{display:none}}@media only screen and (max-width:480px){.soc-sec{margin-bottom:80px}
 }*{outline:0}.top-line{height:130px;padding:35px 0}.top-line .logo{text-decoration:none;color:#4d4d4d;font-family:'Quicksand',sans-serif;font-size:40px}
 nav ul{list-style-type:none;margin:0;padding:0}nav li{display:inline-block;font-family:'Open Sans',sans-serif;font-size:16px;padding:18px 25px}
@@ -1020,7 +1020,7 @@ nav li a:hover{color:#0f0f0f;text-decoration:none;border-bottom:1px #0f0f0f soli
 h1{color:#4d4d4d;font-family:'Quicksand',sans-serif;font-size:50px}
 p{color:#4d4d4d;font-family:'Open Sans',sans-serif;font-size:16px;line-height:35px}
 .btn{width:290px;height:50px;background-color:#4d4d4d;color:#fff;font-size:18px;font-weight:bold;margin-top:10px;font-family:'Open Sans',sans-serif;text-transform:uppercase;border:0;border-radius:30px}
-.btn .fa-mod{font-weight:100;font-size:15px;margin-left:10px}.btn:hover,.btn:focus{background-color:#2f2f2f;color:#fff}
+.btn .fa-mod{font-weight:100;font-size:15px;margin-left:10px}.btn:focus,.btn:hover{background-color:#2f2f2f;color:#fff}
 .serv-item{padding-top:7%;padding-bottom:5%;color:#4d4d4d}.serv-item h3{text-transform:uppercase;font-size:22px;font-family:'Open Sans',sans-serif;font-weight:bold;margin-top:30px;margin-bottom:30px}
 .serv-item p{line-height:22px;font-size:14px;font-family:'Open Sans',sans-serif}
 .serv-sec::after{margin:0 auto;content:"";position:relative;display:block;background-color:#e7e7e7;width:70%;height:1px}
@@ -1042,3 +1042,5 @@ footer .f-item p{margin-top:30px;color:#fff;font-size:13px;line-height:22px;font
 footer .f-item p span{color:#b5b5b5}footer .f-item a{color:#b5b5b5;text-decoration:underline}
 footer .f-item ul{margin-top:30px;list-style:none;line-height:24px;padding:0}footer .f-item ul a{color:#fff;text-decoration:none}
 footer .f-item ul a:hover{color:#b5b5b5}footer .fa-mod{margin-left:8px}footer h4{font-size:18px;font-family:'Open Sans',sans-serif}
+.top{position:fixed;bottom:20px;right:-120px;width:40px;height:40px;border-radius:10em;background-color:grey;text-align:center;opacity:.4;cursor:pointer}
+.top .fa{font-size:25px;margin-top:7px;color:#fff}.top:hover{opacity:.9}.top.active{right:20px}
